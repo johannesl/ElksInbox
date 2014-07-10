@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBF6B6A2196ED27A002FD3E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6B6A1196ED27A002FD3E0 /* main.swift */; };
+		EBF6B6A4196ED27A002FD3E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6B6A3196ED27A002FD3E0 /* AppDelegate.swift */; };
+		EBF6B6A6196ED27A002FD3E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF6B6A5196ED27A002FD3E0 /* Images.xcassets */; };
+		EBF6B6A9196ED27A002FD3E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF6B6A7196ED27A002FD3E0 /* MainMenu.xib */; };
+		EBF6B6B5196ED27A002FD3E0 /* ElksInboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6B6B4196ED27A002FD3E0 /* ElksInboxTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF6B6AF196ED27A002FD3E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF6B694196ED27A002FD3E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF6B69B196ED27A002FD3E0;
+			remoteInfo = ElksInbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBF6B69C196ED27A002FD3E0 /* ElksInbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElksInbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF6B6A0196ED27A002FD3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF6B6A1196ED27A002FD3E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EBF6B6A3196ED27A002FD3E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF6B6A5196ED27A002FD3E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBF6B6A8196ED27A002FD3E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EBF6B6AE196ED27A002FD3E0 /* ElksInboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElksInboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF6B6B3196ED27A002FD3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF6B6B4196ED27A002FD3E0 /* ElksInboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElksInboxTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF6B699196ED27A002FD3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF6B6AB196ED27A002FD3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBF6B693196ED27A002FD3E0 = {
+			isa = PBXGroup;
+			children = (
+				EBF6B69E196ED27A002FD3E0 /* ElksInbox */,
+				EBF6B6B1196ED27A002FD3E0 /* ElksInboxTests */,
+				EBF6B69D196ED27A002FD3E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF6B69D196ED27A002FD3E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6B69C196ED27A002FD3E0 /* ElksInbox.app */,
+				EBF6B6AE196ED27A002FD3E0 /* ElksInboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF6B69E196ED27A002FD3E0 /* ElksInbox */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6B6A3196ED27A002FD3E0 /* AppDelegate.swift */,
+				EBF6B6A5196ED27A002FD3E0 /* Images.xcassets */,
+				EBF6B6A7196ED27A002FD3E0 /* MainMenu.xib */,
+				EBF6B69F196ED27A002FD3E0 /* Supporting Files */,
+			);
+			path = ElksInbox;
+			sourceTree = "<group>";
+		};
+		EBF6B69F196ED27A002FD3E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6B6A0196ED27A002FD3E0 /* Info.plist */,
+				EBF6B6A1196ED27A002FD3E0 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF6B6B1196ED27A002FD3E0 /* ElksInboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6B6B4196ED27A002FD3E0 /* ElksInboxTests.swift */,
+				EBF6B6B2196ED27A002FD3E0 /* Supporting Files */,
+			);
+			path = ElksInboxTests;
+			sourceTree = "<group>";
+		};
+		EBF6B6B2196ED27A002FD3E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6B6B3196ED27A002FD3E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF6B69B196ED27A002FD3E0 /* ElksInbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF6B6B8196ED27A002FD3E0 /* Build configuration list for PBXNativeTarget "ElksInbox" */;
+			buildPhases = (
+				EBF6B698196ED27A002FD3E0 /* Sources */,
+				EBF6B699196ED27A002FD3E0 /* Frameworks */,
+				EBF6B69A196ED27A002FD3E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElksInbox;
+			productName = ElksInbox;
+			productReference = EBF6B69C196ED27A002FD3E0 /* ElksInbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF6B6AD196ED27A002FD3E0 /* ElksInboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF6B6BB196ED27A002FD3E0 /* Build configuration list for PBXNativeTarget "ElksInboxTests" */;
+			buildPhases = (
+				EBF6B6AA196ED27A002FD3E0 /* Sources */,
+				EBF6B6AB196ED27A002FD3E0 /* Frameworks */,
+				EBF6B6AC196ED27A002FD3E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF6B6B0196ED27A002FD3E0 /* PBXTargetDependency */,
+			);
+			name = ElksInboxTests;
+			productName = ElksInboxTests;
+			productReference = EBF6B6AE196ED27A002FD3E0 /* ElksInboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF6B694196ED27A002FD3E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					EBF6B69B196ED27A002FD3E0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EBF6B6AD196ED27A002FD3E0 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EBF6B69B196ED27A002FD3E0;
+					};
+				};
+			};
+			buildConfigurationList = EBF6B697196ED27A002FD3E0 /* Build configuration list for PBXProject "ElksInbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF6B693196ED27A002FD3E0;
+			productRefGroup = EBF6B69D196ED27A002FD3E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF6B69B196ED27A002FD3E0 /* ElksInbox */,
+				EBF6B6AD196ED27A002FD3E0 /* ElksInboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF6B69A196ED27A002FD3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6B6A6196ED27A002FD3E0 /* Images.xcassets in Resources */,
+				EBF6B6A9196ED27A002FD3E0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF6B6AC196ED27A002FD3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF6B698196ED27A002FD3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6B6A4196ED27A002FD3E0 /* AppDelegate.swift in Sources */,
+				EBF6B6A2196ED27A002FD3E0 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF6B6AA196ED27A002FD3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6B6B5196ED27A002FD3E0 /* ElksInboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF6B6B0196ED27A002FD3E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF6B69B196ED27A002FD3E0 /* ElksInbox */;
+			targetProxy = EBF6B6AF196ED27A002FD3E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBF6B6A7196ED27A002FD3E0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF6B6A8196ED27A002FD3E0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF6B6B6196ED27A002FD3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBF6B6B7196ED27A002FD3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EBF6B6B9196ED27A002FD3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ElksInbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBF6B6BA196ED27A002FD3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ElksInbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBF6B6BC196ED27A002FD3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElksInbox.app/Contents/MacOS/ElksInbox";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElksInboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EBF6B6BD196ED27A002FD3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElksInbox.app/Contents/MacOS/ElksInbox";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElksInboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF6B697196ED27A002FD3E0 /* Build configuration list for PBXProject "ElksInbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF6B6B6196ED27A002FD3E0 /* Debug */,
+				EBF6B6B7196ED27A002FD3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF6B6B8196ED27A002FD3E0 /* Build configuration list for PBXNativeTarget "ElksInbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF6B6B9196ED27A002FD3E0 /* Debug */,
+				EBF6B6BA196ED27A002FD3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBF6B6BB196ED27A002FD3E0 /* Build configuration list for PBXNativeTarget "ElksInboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF6B6BC196ED27A002FD3E0 /* Debug */,
+				EBF6B6BD196ED27A002FD3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF6B694196ED27A002FD3E0 /* Project object */;
+}
